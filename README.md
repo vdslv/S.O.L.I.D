@@ -1,5 +1,5 @@
-# S.O.L.I.D. :shipit:
-S.O.L.I.D: The First 5 Principles of Object Oriented Design
+# S.O.L.I.D. 
+S.O.L.I.D: The First 5 Principles of Object Oriented Design :shipit:
 
 S.O.L.I.D is an acronym for the first five object-oriented design(OOD)** principles** by Robert C. Martin, popularly known as Uncle Bob.
 
