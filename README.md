@@ -1,5 +1,5 @@
-# S.O.L.I.D. 
-S.O.L.I.D: The First 5 Principles of Object Oriented Design :shipit:
+# S.O.L.I.D. :see_no_evil:
+:sunny: S.O.L.I.D: The First 5 Principles of Object Oriented Design :shipit:
 
 S.O.L.I.D is an acronym for the first five object-oriented design(OOD)** principles** by Robert C. Martin, popularly known as Uncle Bob.
 
@@ -16,7 +16,7 @@ They also make it easy for developers to avoid code smells, easily refactor code
 - D - Dependency Inversion Principle
 
 
-### Single-responsibility Principle
+### Single-responsibility Principle :cactus:
 ```
 A class should have one and only one reason to change, meaning that a class should have only one job.
 ```
@@ -70,7 +70,7 @@ const output = new SumCalculatorOutputter(areas);
 </p>
 </details>
 
-### Open-closed Principle
+### Open-closed Principle :wrench:
 ```
 Objects or entities should be open for extension, but closed for modification.
 ```
@@ -119,7 +119,7 @@ function sum(arr: ShapeInterface[]) {
 </p>
 </details>
 
-### Liskov substitution principle
+### Liskov substitution principle :couple_with_heart:
 ```
  Every subclass/derived class should be substitutable for their base/parent class.
 ```
@@ -234,7 +234,7 @@ class Cuboid implements ShapeInterface, SolidShapeInterface {
 </p>
 </details>
 
-### Dependency Inversion principle
+### Dependency Inversion principle :key:
 ```
 Entities must depend on abstractions not on concretions.
 It states that the high level module must not depend on the low level module,
