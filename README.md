@@ -279,3 +279,11 @@ console.log(pass2.dbConnection.connect());
 ```
 </p>
 </details>
+
+## Conclusion
+
+S.O.L.I.D might seem to be a bit too abstract at first,
+but with each real-world application of S.O.L.I.D. principles,
+the benefits of adherence to its guidelines will become more apparent.
+Code that follows S.O.L.I.D. principles can more easily be shared
+with collaborators, extended, modified, tested, and refactored without any problems.
