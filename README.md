@@ -20,6 +20,9 @@ They also make it easy for developers to avoid code smells, easily refactor code
 ```
 A class should have one and only one reason to change, meaning that a class should have only one job.
 ```
+<details><summary>Typescript Example</summary>
+<p>
+    
 ```ts
 // A class should have one and only one reason to change,
 // meaning that a class should have only one job.
@@ -64,7 +67,8 @@ class SumCalculatorOutputter {
 const areas = new AreaCalculator([new Circle(5), new Rectangle(7)]);
 const output = new SumCalculatorOutputter(areas);
 ```
-
+</p>
+</details>
 ### Open-closed Principle
 ```
 Objects or entities should be open for extension, but closed for modification.
