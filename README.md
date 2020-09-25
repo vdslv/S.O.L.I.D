@@ -17,9 +17,9 @@ D - Dependency Inversion Principle
 ```
 
 ### Single-responsibility Principle
-```
-A class should have one and only one reason to change, meaning that a class should have only one job.
-```
+
+> A class should have one and only one reason to change, meaning that a class should have only one job.
+
 
 ### Open-closed Principle
 ```
