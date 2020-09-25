@@ -40,4 +40,3 @@ class SumCalculatorOutputter {
 
 const areas = new AreaCalculator([new Circle(5), new Rectangle(7)]);
 const output = new SumCalculatorOutputter(areas);
-
