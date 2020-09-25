@@ -6,20 +6,20 @@ S.O.L.I.D is an acronym for the first five object-oriented design(OOD)** princip
 These principles, when combined together, make it easy for a programmer to develop software that are easy to maintain and extend.
 They also make it easy for developers to avoid code smells, easily refactor code, and are also a part of the agile or adaptive software development.
 
-```
+
 S.O.L.I.D stands for:
 
-S - Single-responsiblity principle
-O - Open-closed principle
-L - Liskov substitution principle
-I - Interface segregation principle
-D - Dependency Inversion Principle
-```
+- S - Single-responsiblity principle
+- O - Open-closed principle
+- L - Liskov substitution principle
+- I - Interface segregation principle
+- D - Dependency Inversion Principle
+
 
 ### Single-responsibility Principle
-
-> A class should have one and only one reason to change, meaning that a class should have only one job.
-
+```
+A class should have one and only one reason to change, meaning that a class should have only one job.
+```
 
 ### Open-closed Principle
 ```
