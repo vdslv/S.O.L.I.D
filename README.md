@@ -280,6 +280,8 @@ console.log(pass2.dbConnection.connect());
 </p>
 </details>
 
+<hr/>
+
 ## Conclusion
 
 S.O.L.I.D might seem to be a bit too abstract at first,
