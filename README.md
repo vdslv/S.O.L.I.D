@@ -69,10 +69,14 @@ const output = new SumCalculatorOutputter(areas);
 ```
 </p>
 </details>
+
 ### Open-closed Principle
 ```
 Objects or entities should be open for extension, but closed for modification.
 ```
+<details><summary>Typescript Example</summary>
+<p>
+    
 ```ts
 interface ShapeInterface {
     area(): number
@@ -112,11 +116,16 @@ function sum(arr: ShapeInterface[]) {
     return sum;
 }
 ```
+</p>
+</details>
 
 ### Liskov substitution principle
 ```
  Every subclass/derived class should be substitutable for their base/parent class.
 ```
+<details><summary>Typescript Example</summary>
+<p>
+    
 ```ts
 // every subclass/derived class should be substitutable for their base/parent class.
 
@@ -180,12 +189,17 @@ const output2 = new SumCalculatorOutputter(volumes);
 output.outputStr();
 output2.outPutJSON();
 ```
+</p>
+</details>
 
 ### Interface segregation principle
 ```
 A client should never be forced to implement an interface
 that it doesn’t use or clients shouldn’t be forced to depend on methods they do not use.
 ```
+<details><summary>Typescript Example</summary>
+<p>
+    
 ```ts
 // A client should never be forced to implement an interface that it doesn’t use or
 // clients shouldn’t be forced to depend on methods they do not use.
@@ -217,6 +231,8 @@ class Cuboid implements ShapeInterface, SolidShapeInterface {
     }
 }
 ```
+</p>
+</details>
 
 ### Dependency Inversion principle
 ```
@@ -224,6 +240,9 @@ Entities must depend on abstractions not on concretions.
 It states that the high level module must not depend on the low level module,
 but they should depend on abstractions.
 ```
+<details><summary>Typescript Example</summary>
+<p>
+    
 ```ts
 // Entities must depend on abstractions not on concretions.
 // It states that the high level module must not depend on the low level module,
@@ -258,3 +277,5 @@ const pass2 = new PasswordReminder(new MongoDBConnection());
 console.log(pass1.dbConnection.connect());
 console.log(pass2.dbConnection.connect());
 ```
+</p>
+</details>
