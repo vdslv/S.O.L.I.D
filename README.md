@@ -33,7 +33,8 @@ Objects or entities should be open for extension, but closed for modification.
 
 ### Interface segregation principle
 ```
-A client should never be forced to implement an interface that it doesn’t use or clients shouldn’t be forced to depend on methods they do not use.
+A client should never be forced to implement an interface
+that it doesn’t use or clients shouldn’t be forced to depend on methods they do not use.
 ```
 
 ### Dependency Inversion principle
