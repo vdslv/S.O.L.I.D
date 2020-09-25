@@ -16,6 +16,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Amway/amer-checkout" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.maddyhome.idea.vim.ui.VimEmulationConfigurable" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -30,7 +31,7 @@
       <updated>1600974653009</updated>
       <workItem from="1600974654046" duration="2526000" />
       <workItem from="1601017253629" duration="17000" />
-      <workItem from="1601021642826" duration="6919000" />
+      <workItem from="1601021642826" duration="7095000" />
     </task>
     <servers />
   </component>
