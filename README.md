@@ -20,7 +20,7 @@ They also make it easy for developers to avoid code smells, easily refactor code
 ```
 A class should have one and only one reason to change, meaning that a class should have only one job.
 ```
-<details><summary>Typescript Example</summary>
+<details><summary><b>Typescript Example</b></summary>
 <p>
     
 ```ts
@@ -74,7 +74,7 @@ const output = new SumCalculatorOutputter(areas);
 ```
 Objects or entities should be open for extension, but closed for modification.
 ```
-<details><summary>Typescript Example</summary>
+<details><summary><b>Typescript Example</b></summary>
 <p>
     
 ```ts
@@ -123,7 +123,7 @@ function sum(arr: ShapeInterface[]) {
 ```
  Every subclass/derived class should be substitutable for their base/parent class.
 ```
-<details><summary>Typescript Example</summary>
+<details><summary><b>Typescript Example</b></summary>
 <p>
     
 ```ts
@@ -197,7 +197,7 @@ output2.outPutJSON();
 A client should never be forced to implement an interface
 that it doesn’t use or clients shouldn’t be forced to depend on methods they do not use.
 ```
-<details><summary>Typescript Example</summary>
+<details><summary><b>Typescript Example</b></summary>
 <p>
     
 ```ts
@@ -240,7 +240,7 @@ Entities must depend on abstractions not on concretions.
 It states that the high level module must not depend on the low level module,
 but they should depend on abstractions.
 ```
-<details><summary>Typescript Example</summary>
+<details><summary><b>Typescript Example</b></summary>
 <p>
     
 ```ts
