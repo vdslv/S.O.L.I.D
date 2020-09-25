@@ -7,12 +7,11 @@ These principles, when combined together, make it easy for a programmer to devel
 They also make it easy for developers to avoid code smells, easily refactor code, and are also a part of the agile or adaptive software development.
 
 ```
-
 S.O.L.I.D stands for:
 
-S - Single-responsiblity principle
-O - Open-closed principle
-L - Liskov substitution principle
-I - Interface segregation principle
-D - Dependency Inversion Principle
+- S - Single-responsiblity principle
+- O - Open-closed principle
+- L - Liskov substitution principle
+- I - Interface segregation principle
+- D - Dependency Inversion Principle
 ```
