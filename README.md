@@ -7,7 +7,7 @@ These principles, when combined together, make it easy for a programmer to devel
 They also make it easy for developers to avoid code smells, easily refactor code, and are also a part of the agile or adaptive software development.
 
 
-### S.O.L.I.D stands for:
+## S.O.L.I.D stands for:
 
 - S - Single-responsiblity principle
 - O - Open-closed principle
@@ -16,7 +16,7 @@ They also make it easy for developers to avoid code smells, easily refactor code
 - D - Dependency Inversion Principle
 
 
-#### Single-responsibility Principle
+### Single-responsibility Principle
 ```
 A class should have one and only one reason to change, meaning that a class should have only one job.
 ```
@@ -65,7 +65,7 @@ const areas = new AreaCalculator([new Circle(5), new Rectangle(7)]);
 const output = new SumCalculatorOutputter(areas);
 ```
 
-#### Open-closed Principle
+### Open-closed Principle
 ```
 Objects or entities should be open for extension, but closed for modification.
 ```
@@ -109,7 +109,7 @@ function sum(arr: ShapeInterface[]) {
 }
 ```
 
-#### Liskov substitution principle
+### Liskov substitution principle
 ```
  Every subclass/derived class should be substitutable for their base/parent class.
 ```
@@ -177,7 +177,7 @@ output.outputStr();
 output2.outPutJSON();
 ```
 
-#### Interface segregation principle
+### Interface segregation principle
 ```
 A client should never be forced to implement an interface
 that it doesn’t use or clients shouldn’t be forced to depend on methods they do not use.
@@ -214,7 +214,7 @@ class Cuboid implements ShapeInterface, SolidShapeInterface {
 }
 ```
 
-#### Dependency Inversion principle
+### Dependency Inversion principle
 ```
 Entities must depend on abstractions not on concretions.
 It states that the high level module must not depend on the low level module, but they should depend on abstractions.
